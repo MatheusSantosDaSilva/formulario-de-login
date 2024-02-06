@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" href="estido.do.css">
+    
 </head>
 
 <body>
@@ -19,11 +20,11 @@
             </div>
             <div>
                 <form action="text.php">
-                    <label for="iemail">E-mail: </label><input type="email" name="email" id="iemail" required placeholder="seu e-mail"><br>
-                    <label for="isenha">Senha:</label> <input type="password" name="Senha" id="isenha" required minlength="8" maxlength="10" placeholder="sua senha"><br>
-                    <input type="submit" value="enviar">
-                
+                    <div id="i"><label for="iemail">E-mail: </label><input type="email" name="email" id="iemail" required placeholder="seu e-mail"><br></div>
+                    <div id="i"><label for="isenha">Senha:</label> <input type="password" name="Senha" id="isenha" required minlength="8" maxlength="10" placeholder="sua senha"><br></div>
                 </form>
+                <input type="submit" value="Entrar" id="enviar">
+                <p id="p"><a href="#">Esqueci a senha</a></p>
             </div>
         </section>
     </main>

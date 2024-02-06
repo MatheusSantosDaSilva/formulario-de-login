@@ -15,7 +15,8 @@ section{
     height: 500px;
     margin: auto;
     margin-top: 100px;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: -8px 10px 5px rgba(0, 0, 0, 0.288);
 }
 h1{
     padding: 10px;
@@ -25,11 +26,59 @@ p{
     padding: 5px;
     text-align:justify ;
 }
-input{
+#i{
+    border-radius: 5px;
+    margin: auto;
     margin-top: 5px;
+    background-color: indigo;
+    width: 80%;
 }
-input[type=submit]{
-    margin-left: 10px;
+ input{
+    margin-top: 5px;
+    height: 25px;
+    background-color: #2fafa9;
+    transform: translate(0px, -3px);
+}
+form  input{
+    border: none;
+    border-radius: 5px;
+}
+form input:hover{
+    background-color: #3dddd5;
+}
+#enviar{
+    border: none;
+    cursor: pointer;
+    width: 240px;
+    height: 30px;
+    background-color: #3dddd5;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#enviar:hover{
+    background-color: #7bfcf5;
+}
+p a{
+    display: block;
+    color: #389b96;
+    text-decoration: none;
+    border: solid 1px #389b96;
+    margin: auto;
+    text-align: center;
+    width: 240px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+p a:hover{
+    background-color: #7bfcf5;
+    color: black;
+}
+label{
+    cursor: pointer;
+    color: white;
 }
 #img{
     background:black url(pexels-sevenstorm-juhaszimrus-562211.jpg) no-repeat center center ;
