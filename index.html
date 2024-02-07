@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="estido.do.css">
     
 </head>
@@ -20,9 +21,14 @@
             </div>
             <div>
                 <form action="#" method="post" autocomplete="on">
-                    <div id="i"><label for="iemail">E-mail: </label><input type="email" name="email" id="iemail" required placeholder="seu e-mail"><br></div>
-                    <div id="i"><label for="isenha">Senha:</label> <input type="password" name="Senha" id="isenha" required minlength="8" maxlength="10" placeholder="sua senha"><br></div>
-                    <input type="submit" value="Entrar" id="enviar">
+                    <div id="i">
+                        <label for="iemail"><span
+                        class="material-symbols-outlined">person</span></label><input type="email" name="email" id="iemail" required placeholder="seu e-mail"><br>
+                    </div>
+
+                    <div id="i">
+                        <label for="isenha"><span class="material-symbols-outlined">lock</span></label> <input type="password" name="Senha" id="isenha" required minlength="8" maxlength="10" placeholder="sua senha"><br></div>
+                        <input type="submit" value="Entrar" id="enviar">
                 </form>
                 <p id="p"><a href="#">Esqueci a senha</a></p>
             </div>

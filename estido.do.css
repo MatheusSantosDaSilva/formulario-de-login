@@ -46,6 +46,11 @@ form  input{
 form input:hover{
     background-color: #3dddd5;
 }
+span{
+    margin-right: 15px;
+    margin-left:10px;
+    transform: translate(-0px, 3px);
+}
 #enviar{
     border: none;
     cursor: pointer;
