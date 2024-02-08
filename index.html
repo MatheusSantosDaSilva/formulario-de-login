@@ -12,26 +12,29 @@
 
 <body>
     <main>
-        <section>
+        <section id="principal">
+
             <div id="img"></div>
-            <h1>Login</h1>
-            <div>
+
+            <div id="Formulario">
+                <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente, Faça login para acessar sua conta e poder fazer suas configurações no
                     seu ambiente.</p>
-            </div>
-            <div>
                 <form action="#" method="post" autocomplete="on">
+
                     <div id="i">
                         <label for="iemail"><span
                         class="material-symbols-outlined">person</span></label><input type="email" name="email" id="iemail" required placeholder="seu e-mail">
                     </div>
 
                     <div id="i">
-                        <label for="isenha"><span class="material-symbols-outlined">lock</span></label><input type="password" name="Senha" id="isenha" required minlength="8" maxlength="10" placeholder="sua senha"><br></div>
+                        <label for="isenha"><span class="material-symbols-outlined">lock</span></label><input type="password" name="Senha" id="isenha" required minlength="8" maxlength="10" placeholder="sua senha">
+                    </div>
                         <input type="submit" value="Entrar" id="enviar">
+                        <p id="p"><a href="#">Esqueci a senha<span class="material-symbols-outlined">mail_lock</span></a></p>
                 </form>
-                <p id="p"><a href="#">Esqueci a senha<span class="material-symbols-outlined">mail_lock</span></a></p>
             </div>
+
         </section>
     </main>
 </body>
