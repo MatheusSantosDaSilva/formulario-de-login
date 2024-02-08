@@ -31,7 +31,7 @@ main{
     height: 100vh;
 }
 #formulario{
-   display: block;
+    display: block;
     padding: 10px;
 }
 h1{
@@ -130,12 +130,9 @@ label{
     #principal{
         width: 70vw;
     }
-    #enviar, #p, #i {
-        width: 30vw;
-        margin: auto;
-        margin-top: 10px;
-        
-    }
+   input{
+    width: 50%;
+   }
     #img{
         float: left;
         width: 30%;
