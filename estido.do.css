@@ -19,7 +19,6 @@ main{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
     width: 250px;
@@ -28,6 +27,7 @@ main{
     box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.74);
     transition: width .4s, height .4s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 #imagem{
     display: block;
@@ -70,10 +70,10 @@ div > span{
     font-size: 1em;
     height: 100%;
     width: calc(100% - 45px);
-    transform: translateY(-4px);
     border: 0px;
     border-radius: 8px;
     padding: 5px;
+    transform: translateY(-4px);
 }
 .campo > input:focus-within{
     background-color: white;
@@ -117,6 +117,7 @@ input[type=submit]:hover{
     }    
     #login{
         width: 80vw;
+        height: 280px;
     }
     #imagem{
         float: left;
@@ -136,6 +137,7 @@ input[type=submit]:hover{
     }
     #login{
         width: 950px;
+        height: 350px;
     }
     #imagem{
         float: right;
@@ -151,5 +153,6 @@ input[type=submit]:hover{
     }
     p{
         font-size: 1.2em;
+        margin: 20px 0px;
     }
 }
