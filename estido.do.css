@@ -15,7 +15,7 @@ main{
     height: 100vh;
     width: 100vw;
 }
-section#login{
+#login{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,14 +26,55 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.74);
+    transition: width .4s, height .4s;
+    transition-timing-function: ease;
 }
-section#login >div#imagem{
+#imagem{
     display: block;
     background:#5f2c82 url(pexels-sevenstorm-juhaszimrus-562211.jpg) no-repeat;
     background-size: cover;
     height: 200px;
 }
-section#login > div#formulario{
+#formulario{
     display: block;
     padding: 10px;
+}
+
+/*tela de tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body, html{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }    
+    #login{
+        width: 80vw;
+    }
+    #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    #formulario{
+        float: right;
+        width: 70%;
+    }
+}
+/*telas grandes*/
+
+@media screen and (min-width: 992px){
+    body, html{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    #login{
+        width: 950px;
+    }
+    #imagem{
+        float: right;
+        width: 50%;
+        height: 100%;  
+    }
+    #formulario{
+        float: left;
+        width: 50%;
+    }
 }
