@@ -106,22 +106,6 @@ input[type=submit]:hover{
     color: white;
 }
 
-/*teste tela pequena*/
-
-@media screen and (min-width: 719px) and (max-width: 768px){
-    .campo > input{
-        background-color: #cfaa94;
-        font-size: 1em;
-        height: 100%;
-        width: calc(100% - 40px);
-        border: 0px;
-        border-radius: 8px;
-        padding: 5px;
-        padding-top: 0px;
-        transform: translateY(-20px);
-    }
-}
-
 /*tela de tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 992px){
