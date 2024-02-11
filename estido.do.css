@@ -137,12 +137,12 @@ input[type=submit]:hover{
     }
     #imagem{
         float: right;
-        width: 50%;
+        width: 45%;
         height: 100%;  
     }
     #formulario{
         float: left;
-        width: 50%;
+        width: 55%;
     }
     h1{
         font-size: 2em;
